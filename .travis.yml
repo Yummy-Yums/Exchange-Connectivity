@@ -17,4 +17,4 @@ jobs:
 deploy:
   provider: heroku
   api_key: $HEROKU_API_KEY
-  app: exchange-connectivity
+  app: exchangeconnectivity
