@@ -1,0 +1,16 @@
+language: java
+
+jdk:
+  - openjdk11
+
+script:
+  - /gradlew build --scan -s
+
+sudo: true
+
+before_install: chmod +x gradle
+
+jobs:
+  include:
+    - stage: test
+      script: ./mvnw clean test
