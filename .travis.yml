@@ -8,9 +8,9 @@ script:
 
 sudo: true
 
-before_install: chmod +x gradle
+before_install: chmod +x gradlew
 
 jobs:
   include:
     - stage: test
-      script: ./mvnw clean test
+      script: ./gradlew clean test
