@@ -1,13 +1,13 @@
-package com.kepf.Exchangeconectivity;
+package com.kepf.Exchangeconnectivity;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ExchangeConectivityApplication {
+public class ExchangeConnectivityApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ExchangeConectivityApplication.class, args);
+		SpringApplication.run(ExchangeConnectivityApplication.class, args);
 	}
 
 }
