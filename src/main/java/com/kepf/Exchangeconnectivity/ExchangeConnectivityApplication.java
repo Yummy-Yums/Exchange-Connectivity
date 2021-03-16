@@ -18,7 +18,7 @@ public class ExchangeConnectivityApplication {
 		SpringApplication.run(ExchangeConnectivityApplication.class, args);
 	}
 
-	@RequestMapping(method = {RequestMethod.GET},path = "api/v1")	
+	@RequestMapping(method = {RequestMethod.GET},path = "api/v1")
 	public String getApi(){
 		return "This is the Exchange-Connectivity Api v1";
 	}
