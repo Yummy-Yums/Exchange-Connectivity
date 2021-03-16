@@ -9,6 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.List;
 
 @SpringBootApplication
+@RestController
 @RequestMapping(path = "api/v1")
 public class ExchangeConnectivityApplication {
 
