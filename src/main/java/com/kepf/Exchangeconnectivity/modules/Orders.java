@@ -1,3 +1,5 @@
+package com.kepf.Exchangeconnectivity.modules;
+
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 
 @JsonIgnoreProperties(ignoreUnknown = true)
@@ -58,7 +60,7 @@ public class Orders {
 
     @Override
     public String toString() {
-        return "Orders{" +
+        return "com.kepf.Exchangeconnectivity.modules.Orders{" +
                 "id=" + id +
                 ", side='" + side + '\'' +
                 ", price=" + price +
