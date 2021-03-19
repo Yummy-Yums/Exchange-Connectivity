@@ -14,4 +14,36 @@ public class OrderBookRequest {
         this.product = product;
     }
 
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
+    }
+
+    public String getSide() {
+        return side;
+    }
+
+    public void setSide(String side) {
+        this.side = side;
+    }
+
+    public String getProduct() {
+        return product;
+    }
+
+    public void setProduct(String product) {
+        this.product = product;
+    }
+
+    @Override
+    public String toString() {
+        return "OrderBookRequest{" +
+                "id='" + id + '\'' +
+                ", side='" + side + '\'' +
+                ", product='" + product + '\'' +
+                '}';
+    }
 }
