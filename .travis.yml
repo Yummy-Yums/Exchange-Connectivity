@@ -1,0 +1,22 @@
+language: java
+
+jdk:
+  - openjdk11
+
+script:
+  - /gradlew build --scan -s
+
+sudo: true
+
+before_install: chmod +x gradlew
+
+jobs:
+  include:
+    - stage: test
+      script: ./gradlew clean test
+deploy:
+  provider: heroku
+  api_key: $HEROKU_API_KEY
+  app: exchangeconnectivity
+  on:
+    main

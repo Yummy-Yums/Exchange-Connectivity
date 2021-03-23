@@ -1,10 +1,10 @@
-package com.kepf.Exchangeconectivity;
+package com.kepf.Exchangeconnectivity;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @SpringBootTest
-class ExchangeConectivityApplicationTests {
+class ExchangeConnectivityApplicationTests {
 
 	@Test
 	void contextLoads() {
